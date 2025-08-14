@@ -1,7 +1,8 @@
-import Link from 'next/Link';
+import Link from 'next/link';
 import Button from '../common/Button';
 import { usePathname } from 'next/navigation';
-import { RootState } from '@/store/store';
+import { RootState } from '../../store/store';
+// import { RootState } from '@/store/store';
 import {useSelector} from 'react-redux';
 
 
